@@ -12,6 +12,7 @@
 		B14B76881F2840C1003EF9BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14B76861F2840C1003EF9BA /* Main.storyboard */; };
 		B14B768A1F2840C1003EF9BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14B76891F2840C1003EF9BA /* Assets.xcassets */; };
 		B14B768D1F2840C1003EF9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14B768B1F2840C1003EF9BA /* LaunchScreen.storyboard */; };
+		B14B76951F286EFE003EF9BA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B14B76941F286EFE003EF9BA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B14B76891F2840C1003EF9BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B14B768C1F2840C1003EF9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B14B768E1F2840C1003EF9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14B76941F286EFE003EF9BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		B14B76761F2840C1003EF9BA = {
 			isa = PBXGroup;
 			children = (
+				B14B76941F286EFE003EF9BA /* README.md */,
 				B14B76811F2840C1003EF9BA /* LoveArray */,
 				B14B76801F2840C1003EF9BA /* Products */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14B76951F286EFE003EF9BA /* README.md in Sources */,
 				B14B76851F2840C1003EF9BA /* ViewController.swift in Sources */,
 				B14B76831F2840C1003EF9BA /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				B14B76931F2840C1003EF9BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
