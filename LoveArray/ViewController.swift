@@ -15,9 +15,11 @@ class ViewController: UIViewController {
     
     @IBAction func addButton(_ sender: Any) {
         
+        //Get Value From TextField
+        let strMember = memberTextField.text
+        print("strMember ==> \(String(describing: strMember))")
         
-        
-        
+    
     }   // addButton
     
     
